@@ -1,0 +1,21 @@
+{
+  "name": "hyperion",
+  "version": "0.0.1",
+  "description": "Unopinionated UI kit",
+  "main": "index.js",
+  "repository": "git@github.com:dock90/hyperion.git",
+  "author": "EdwardGoomba <edward@dock90.io>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^9.5.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.1.1"
+  }
+}
