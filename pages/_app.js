@@ -9,8 +9,17 @@ const GlobalStyle = createGlobalStyle`
 `
 const theme = {
   colors: {
-    primary: '#0070f3',
+    primary: '#0872a1',
+    secondary: '',
+    dark: '#4c4f5a',
+    background: '#f7f9fc'
   },
+  status: {
+    critical: '#ff4040',
+    warning: '#FFAA15',
+    clear: '#00C781',
+    unknown: '#CCCCCC'
+  }
 }
 
 export default class MyApp extends App {
