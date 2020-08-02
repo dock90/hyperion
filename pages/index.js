@@ -1,8 +1,6 @@
 import styled from 'styled-components'
-
-const Title = styled.h1`
-  color: ${({ theme }) => theme.colors.primary};
-`
+// components
+import Title from '../components/title'
 
 const Home = () => <Title>hyperion</Title>
 
